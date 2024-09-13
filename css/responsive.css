@@ -1,0 +1,183 @@
+@media screen and (max-width:1024px)
+{
+
+
+}
+@media screen and (max-width:991px)
+{
+}
+@media screen and (max-width:768px)
+{
+    .phase-header::before {  
+        width: 111px;
+       left: -122px;
+        top: 26px;
+    }               
+    .line-of span::before {
+       
+        height: 164vh;
+       
+    }
+      
+}
+@media screen and (max-width:767px)
+{
+     /* header  */
+
+    .header-nav ul {
+        display: none;
+    }
+
+    /* header end  */
+
+    /* banner */
+    .banner-main {
+        flex-wrap: wrap;
+    }
+    .banner-inner-60 {
+        width: 100%;
+    }
+    .banner-inner-40 {
+        width: 100%;
+    }
+    .banner-deta h2 {
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0.01em;
+    }
+    .banner-deta h1 {
+        font-size: 56px;
+    }
+
+    label {
+        FONT-SIZE: 13PX;
+    }
+    input{
+        font-size: 10px;
+    }
+    .form ul {
+        gap: 12px;
+    }
+
+    /* Services-section */
+
+    .Services-card ul{
+        flex-wrap: wrap;
+    }
+
+     /* Services-section */
+
+    /* about-section */
+    .About-main{
+        flex-wrap: wrap;
+    }
+    .About-inner-60{
+        width: 100%;
+    }
+    .About-inner-40{
+        width: 100%;
+    }
+    .about-deta h3{
+      
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 43px;
+            letter-spacing: 0.01em;
+        
+    }
+ /* about-section */
+
+    /* mobile-section  */
+    .phase-main{
+        justify-content: end;
+         gap: 10px;
+    }
+    .plase-inner-left{
+          gap: 10px;
+    }
+    .plase-inner-left {
+        width: 30%;
+    }
+    .plase-inner-right {
+        width: 65%;
+        padding: 5px;
+    }
+    .phase-header {
+       max-width: 60%;
+    }
+    .phase-header h3{
+        font-size: 23px;
+    }
+    .phase-header::before {
+    max-width: 34px;
+    left: -34px;
+    top: 28px;
+   
+    }
+    .line-of span::before {
+        height: 252vh;
+    }
+    .plase-right-deta h4 {
+        font-size: 14px;
+        padding: 10px 0px;
+        line-height: 23px;
+    }
+    .plase-right-deta p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    /* -----------------------------------  b line */
+    /* .line-b-var::before{
+        width: 35px;
+        left: -31px;
+        top: 23px;
+    } */
+    /* .line-b-of::before {
+        height: 285px;
+        left: -92px;
+        top: 8px;
+    } */
+
+
+    /* .Calendar-section */
+    .Calendar-main{
+        flex-wrap: wrap;
+    }
+
+    .Calendar-left {
+        width: 100%;
+    }
+    .Calendar-right {
+        width: 100%;
+    }
+    .Calendar-right-deta h3{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: 0.01em;
+    }
+    
+
+        th span {
+            height: 41px;
+            width: 23px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 50px;
+            background-color: white;
+            font-size: 10px;
+        }
+
+        td span {
+    height: 35px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color: white;
+                }
+}
